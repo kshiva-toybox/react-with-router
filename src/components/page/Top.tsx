@@ -9,7 +9,12 @@ const Top: FC = () => {
         <title>Top | React App</title>
       </Helmet>
       <h1>TOP</h1>
-      <Link to="/about">About</Link>
+      <div>
+        <Link to="/about">About</Link>
+      </div>
+      <div>
+        <Link to="/request-test">RequestTest</Link>
+      </div>
     </>
   );
 };
