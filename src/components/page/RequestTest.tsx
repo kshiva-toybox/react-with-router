@@ -4,7 +4,8 @@ import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 
 const RequestTest: FC = () => {
-  console.log(process.env);
+  console.log('hoge');
+
   useEffect(() => {
     const request = async () => {
       axios.get('http://hogehogepiyopiyo.xyz');
